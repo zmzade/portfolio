@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { MailOpenIcon } from "@heroicons/react/solid";
+import { PhoneIcon } from "@heroicons/react/solid";
 
 const Navbar = () => {
   return (
@@ -33,6 +34,8 @@ const Navbar = () => {
           <a href="#contact" className="mr-5 hover:text-white">
             <MailOpenIcon className="w-4 h-4 ml-1" />
           </a>
+          <PhoneIcon className="w-4 h-4 ml-1" />
+          <p>: 50155146</p>
         </nav>
         <a
           href="#contact"
