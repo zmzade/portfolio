@@ -4,13 +4,15 @@ import { educations } from "../data";
 
 const Education = () => {
   return (
-    <section id="educations">
-      <div className="container px-5 py-10 mx-auto text-center">
-        <AcademicCapIcon className="w-10 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-          Education
-        </h1>
-        <div className="flex flex-wrap m-4">
+    <section id="educations" className="text-gray-400 bg-gray-900 body-font">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-20">
+          <AcademicCapIcon className="mx-auto inline-block w-10 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+            Education
+          </h1>
+        </div>
+        <div className="flex flex-wrap m-4 ">
           {educations.map((education) => (
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">

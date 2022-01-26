@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Vidly app",
-    subtitle: "React, node, bootstrap",
+    subtitle: "React, node, bootstrap, Axios",
     description:
       "An app for show movies. Functionality for adding or removing items, sort and paginate them, form validation is done by joi library. Components are styled by installing bootstrap.  ",
     image: "./vidley.png",

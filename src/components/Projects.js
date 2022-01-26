@@ -13,9 +13,9 @@ const Projects = () => {
               Apps I've Built
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Some of the projects which i have built, which showing my
-              capabilities and skills I have shown in that particular
-              technologies.
+              Here are three examples of apps that I have myself developed or
+              built and another one, final project, which I have participated in
+              developing and building as a team memeber.
             </p>
           </div>
           <div className="flex flex-wrap -m-0">
@@ -25,10 +25,10 @@ const Projects = () => {
                 key={project.image}
                 className="sm:w-1/2 w-100 p-4"
               >
-                <div className="flex relative ">
+                <div className="flex relative">
                   <img
                     alt="gallery"
-                    className="absolute inset-0 w-full h-full items-center object-cover object-center"
+                    className="absolute inset-0 w-full h-full items-center object-cover object-center "
                     src={project.image}
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">

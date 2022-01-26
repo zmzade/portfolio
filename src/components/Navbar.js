@@ -1,5 +1,9 @@
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { MailOpenIcon } from "@heroicons/react/solid";
 
 const Navbar = () => {
   return (
@@ -17,13 +21,22 @@ const Navbar = () => {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          {/* <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a> */}
+          <a
+            href="https://www.linkedin.com/in/zahra-mahmoodzadeh-07302b39"
+            className="mr-5 hover:text-white"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a href="https://github.com/zmzade" className="mr-5 hover:text-white">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a href="#contact" className="mr-5 hover:text-white">
+            <MailOpenIcon className="w-4 h-4 ml-1" />
+          </a>
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          className="mr-20 inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
         >
           Hire Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
