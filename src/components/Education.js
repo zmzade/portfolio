@@ -15,7 +15,7 @@ const Education = () => {
         <div className="flex flex-wrap m-4 ">
           {educations.map((education) => (
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+              <div className="h-full bg-gray-500 bg-opacity-40 p-8 rounded">
                 <div className="inline-flex items-center">
                   <img
                     alt="logos"
@@ -26,10 +26,10 @@ const Education = () => {
                     <span className="title-font font-medium text-white">
                       {education.name}
                     </span>
-                    <span className="text-gray-400 text-sm uppercase">
+                    <span className="text-gray-300 text-sm uppercase">
                       {education.company}
                     </span>
-                    <span className="text-gray-500 text-sm uppercase">
+                    <span className="text-gray-400 text-sm uppercase">
                       {education.date}
                     </span>
                   </span>
