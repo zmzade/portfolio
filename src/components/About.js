@@ -15,7 +15,7 @@ const About = () => {
             />
 
             <div className="absolute m-10 ">
-              <h1 className="title-font sm:text-4xl text-lg sm:mb-4 font-medium text-gray-900 animate__animated animate__fadeInTopLeft animate__slow animate__delay-2s">
+              <h1 className="title-font sm:text-4xl text-lg mb-4 font-medium text-gray-900 animate__animated animate__fadeInTopLeft animate__slow animate__delay-2s">
                 Hi, I'm Zahra.
                 <br className="hidden lg:inline-block" />I love to build amazing
                 web pages.
