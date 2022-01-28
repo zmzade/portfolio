@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React, Node, Firebase, Paypal, StoryBook, Swagger, REST API's",
     description:
       "Web shop app with full purchase flow: login and logout via firebase,user profile, navigate, sort, add or remove products from cart, like as favorites, insert or edit address, pay via paypal popup and recieve purchase confirmation.",
-    image: "./webShop.png",
+    image: require("./assets/webShop.png"),
     link: "https://staging-webshop-class18-fp.herokuapp.com/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React and node, html, CSS",
     description:
       "Mealsharing app is a complete app for sharing foods, review reserve and search food. Some of the app features are autocomplete search, with mysql database and knex.js database access language and Rest API's for http requests. ",
-    image: "./mealSharing.png",
+    image: require("./assets/mealSharing.png"),
     link: "https://kiarash-mealsharing.herokuapp.com/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React, next.js, tailwind Css and Firebase",
     description:
       " login and logout via firebase, locate pickup and dropoff address, markers on the map, calculate trip duration and price, choose different services. Uber app uses next.js and tailwind Css",
-    image: "./uber.png",
+    image: require("./assets/uber.png"),
     link: "https://github.com/zmzade",
   },
   {
@@ -28,20 +28,20 @@ export const projects = [
     subtitle: "React, node, bootstrap, Axios",
     description:
       "An app for show movies. Functionality for adding or removing items, sort and paginate them, form validation is done by joi library. Components are styled by installing bootstrap.  ",
-    image: "./vidley.png",
+    image: require("./assets/vidly.png"),
     link: "https://github.com/zmzade",
   },
 ];
 
 export const educations = [
   {
-    image: "./hyf.jpg",
+    image: require("./assets/hyf.jpg"),
     name: "Fullstack web development",
     company: "HackYourFuture (HYF) Copenhagen",
     date: "02 / 2021 - 10 / 2021",
   },
   {
-    image: "./tehranUnv.png",
+    image: require("./assets/tehranUnv.png"),
     name: "Linguistics (Phonetics), PhD.",
     company: "University Of Tehran, Iran",
     date: "2004 - 2010",
