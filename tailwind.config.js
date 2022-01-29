@@ -5,8 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        amber: colors.amber,
         gray: colors.gray,
+        lightBlue: "#304ffe",
+        amber: colors.amber,
       },
     },
   },

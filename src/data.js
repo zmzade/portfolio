@@ -36,7 +36,7 @@ export const projects = [
 export const educations = [
   {
     image: require("./assets/hyf.jpg"),
-    name: "Fullstack web development",
+    name: "Fullstack Web Development",
     company: "HackYourFuture (HYF) Copenhagen",
     date: "02 / 2021 - 10 / 2021",
   },
@@ -49,13 +49,13 @@ export const educations = [
 ];
 export const experiences = [
   {
-    name: "web developer",
+    name: "Web Developer",
     company: "@ HackYourFuture (HYF) Copenhagen",
     date: "Feb.2021 - Dec.2021",
     work: "React, Node.js, MySQL, JavaScript, Html, Css",
   },
   {
-    name: "Linguist Researcher and lecturer",
+    name: "Linguistics Researcher and lecturer",
     company:
       "@ Iranian Research Institute for Information Science and Technology (IRANDOC) ",
     date: "Sep.2010 - Jun.2018",

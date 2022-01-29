@@ -73,7 +73,7 @@ const Contact = () => {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="text-white leading-relaxed mb-5">
             Hi! I am looking forward hearing from you. I love coding and enjoy
             new challenges. So feel free to contact me, I am always open to
             discuss about new web projects.
@@ -83,7 +83,7 @@ const Contact = () => {
           </p>
 
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-200">
               Name
             </label>
             <input
@@ -95,7 +95,7 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-200">
               Email
             </label>
             <input
@@ -109,7 +109,7 @@ const Contact = () => {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400"
+              className="leading-7 text-sm text-gray-200"
             >
               Message
             </label>
