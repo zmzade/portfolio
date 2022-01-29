@@ -7,11 +7,11 @@ const Skills = () => {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
+          <ChipIcon className="w-10 inline-block mb-4 text-gray-300" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-200">
             I have experience working with following languages and technologies.
           </p>
         </div>
