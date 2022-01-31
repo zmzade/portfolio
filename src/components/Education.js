@@ -17,26 +17,23 @@ const Education = () => {
             <div key={education.name} className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-400 bg-opacity-40 p-8 rounded">
                 <div className="inline-flex items-center">
-                  <div className="p-5">
-                    <img
-                      alt="logos"
-                      src={education.image}
-                      className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                    />
-                  </div>
-                  <div className="p-3">
-                    <span className="flex-grow flex flex-col pl-4">
-                      <span className="title-font font-medium text-white">
-                        {education.name}
-                      </span>
-                      <span className="text-gray-300 text-sm uppercase">
-                        {education.company}
-                      </span>
-                      <span className="text-gray-400 text-sm uppercase">
-                        {education.date}
-                      </span>
+                  <img
+                    alt="logos"
+                    src={education.image}
+                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+
+                  <span className="flex-grow flex flex-col pl-4">
+                    <span className="title-font font-medium text-white">
+                      {education.name}
                     </span>
-                  </div>
+                    <span className="text-gray-300 text-sm uppercase">
+                      {education.company}
+                    </span>
+                    <span className="text-gray-400 text-sm uppercase">
+                      {education.date}
+                    </span>
+                  </span>
                 </div>
               </div>
             </div>
