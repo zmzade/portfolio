@@ -80,4 +80,5 @@ export const skills = [
   "CSS",
   "bootstrap",
   "Tailwind CSS",
+  "Test framework:Jest",
 ];
