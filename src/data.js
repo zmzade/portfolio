@@ -65,17 +65,19 @@ export const experiences = [
 
 export const skills = [
   "React",
-  "Next.js",
   "JavaScript",
   "Typescript",
-  "Node",
+  "Redux",
+  "Version control: git",
+  "Next.js",
+  "NodeJs",
   "REST API's",
   "Swagger",
   "Storybook",
   "MySQL",
   "Knex",
-  "Git",
-  "bootstrap",
   "Html",
   "CSS",
+  "bootstrap",
+  "Tailwind CSS",
 ];
