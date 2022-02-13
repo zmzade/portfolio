@@ -31,6 +31,13 @@ export const projects = [
     image: require("./assets/vidly.png"),
     link: "https://github.com/zmzade",
   },
+  {
+    title: "Material Ui Demo",
+    subtitle: "React, material ui library",
+    description: " A short demo of a photo album with material ui. ",
+    image: require("./assets/mui.png"),
+    link: "https://github.com/zmzade",
+  },
 ];
 
 export const educations = [
