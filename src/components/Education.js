@@ -16,21 +16,21 @@ const Education = () => {
           {educations.map((education) => (
             <div key={education.name} className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-400 bg-opacity-40 p-8 rounded">
-                <div className="inline-flex items-center">
-                  <img
-                    alt="logos"
-                    src={education.image}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
+                <img
+                  alt="logos"
+                  src={education.image}
+                  className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
 
+                <div className="inline-flex items-center">
                   <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
-                      {education.name}
+                    <span className="title-font font-medium text-amber-600 text-shadow sm:text-shadow-sm md:text-shadow-md">
+                      {education.subject}
                     </span>
-                    <span className="text-gray-300 text-sm uppercase">
-                      {education.company}
+                    <span className="text-gray-300 text-sm uppercase text-shadow sm:text-shadow-sm md:text-shadow-md">
+                      {education.institution}
                     </span>
-                    <span className="text-gray-400 text-sm uppercase">
+                    <span className="text-gray-400 text-sm uppercase text-shadow sm:text-shadow-sm md:text-shadow-md">
                       {education.date}
                     </span>
                   </span>

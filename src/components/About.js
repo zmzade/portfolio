@@ -15,14 +15,14 @@ const About = () => {
             />
 
             <div className="absolute m-10 ">
-              <h1 className="title-font sm:text-4xl text-lg mb-4 font-medium text-white animate__animated animate__fadeInTopLeft animate__slow animate__delay-2s">
+              <h1 className="title-font sm:text-4xl text-lg mb-4 font-medium text-white animate__animated animate__fadeInTopLeft animate__slow animate__delay-2s text-shadow sm:text-shadow-sm md:text-shadow-md">
                 Hi, I'm Zahra.
                 <br className="hidden lg:inline-block" />I love to build amazing
                 web pages.
               </h1>
             </div>
           </div>
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 mt-8 animate__animated animate__flash animate__slow animate__delay-4s">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 mt-8 animate__animated animate__flash animate__slow animate__delay-4s text-shadow sm:text-shadow-sm md:text-shadow-md text-shadow sm:text-shadow-sm md:text-shadow-md">
             From human language to computer language
           </h1>
           <p className="mb-8 leading-relaxed text-white">
@@ -44,13 +44,13 @@ const About = () => {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-amber-600 border-0 py-2 px-6 focus:outline-none hover:bg-amber-700 rounded text-lg"
+              className="inline-flex text-white bg-amber-600 border-0 py-2 px-6 focus:outline-none hover:bg-amber-700 rounded text-lg text-shadow sm:text-shadow-sm md:text-shadow-md"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg text-shadow sm:text-shadow-sm md:text-shadow-md"
             >
               See My Past Work
             </a>

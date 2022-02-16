@@ -45,7 +45,7 @@ const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
+              <p className="mt-1 text-shadow sm:text-shadow-sm md:text-shadow-md">
                 Engparken 167 <br />
                 Frederikshavn 9900, Denmark
               </p>
@@ -54,10 +54,10 @@ const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-indigo-400 leading-relaxed text-shadow sm:text-shadow-sm md:text-shadow-md">
                 zmahmoodzadeh@yahoo.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4 text-shadow sm:text-shadow-sm md:text-shadow-md">
                 PHONE
               </h2>
               <p className="leading-relaxed">50155146</p>
@@ -70,7 +70,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-shadow sm:text-shadow-sm md:text-shadow-md">
             Hire Me
           </h2>
           <p className="text-white leading-relaxed mb-5">
@@ -83,7 +83,10 @@ const Contact = () => {
           </p>
 
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-200">
+            <label
+              htmlFor="name"
+              className="leading-7 text-sm text-gray-200 text-shadow sm:text-shadow-sm md:text-shadow-md"
+            >
               Name
             </label>
             <input
@@ -95,7 +98,10 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-200">
+            <label
+              htmlFor="email"
+              className="leading-7 text-sm text-gray-200 text-shadow sm:text-shadow-sm md:text-shadow-md"
+            >
               Email
             </label>
             <input
@@ -109,7 +115,7 @@ const Contact = () => {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-200"
+              className="leading-7 text-sm text-gray-200 text-shadow sm:text-shadow-sm md:text-shadow-md"
             >
               Message
             </label>
@@ -122,7 +128,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="text-white bg-amber-600 border-0 py-2 px-6 focus:outline-none hover:bg-amber-700 rounded text-lg text-shadow sm:text-shadow-sm md:text-shadow-md"
           >
             Submit
           </button>

@@ -16,21 +16,26 @@ const Experience = () => {
           {experiences.map((work) => (
             <div key={work.name} className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-400 bg-opacity-40 p-8 rounded">
+                <img
+                  alt="logos"
+                  src={work.image}
+                  className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
                 <div className="inline-flex items-center">
                   <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
+                    <span className="title-font font-medium text-amber-600 text-shadow sm:text-shadow-sm md:text-shadow-md">
                       {work.name}
                     </span>
-                    <span className="text-gray-300 text-sm uppercase">
+                    <span className="text-green-300 text-sm uppercase text-shadow sm:text-shadow-sm md:text-shadow-md ">
                       {work.company}
                     </span>
                     <br />
-                    <span className="text-gray-400 text-sm uppercase">
+                    <span className="text-gray-400 text-sm uppercase text-shadow sm:text-shadow-sm md:text-shadow-md">
                       {work.date}
                     </span>
                     <hr />
-                    <span className="text-gray-300 text-sm uppercase">
-                      {work.work}
+                    <span className="text-gray-300 text-sm uppercase text-shadow sm:text-shadow-sm md:text-shadow-md">
+                      {work.responsibility}
                     </span>
                   </span>
                 </div>

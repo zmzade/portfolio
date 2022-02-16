@@ -34,7 +34,8 @@ export const projects = [
   {
     title: "Material Ui Demo",
     subtitle: "React, material ui library",
-    description: " A short demo of a photo album with material ui. ",
+    description:
+      " A photo album developing with different material ui libraries and react. ",
     image: require("./assets/mui.png"),
     link: "https://github.com/zmzade",
   },
@@ -43,30 +44,33 @@ export const projects = [
 export const educations = [
   {
     image: require("./assets/hyf.jpg"),
-    name: "Fullstack Web Development",
-    company: "HackYourFuture (HYF) Copenhagen",
+    subject: "Fullstack Web Development",
+    institution: "HackYourFuture (HYF) Copenhagen",
     date: "02 / 2021 - 10 / 2021",
   },
   {
     image: require("./assets/tehranUnv.png"),
-    name: "Linguistics (Phonetics), PhD.",
-    company: "University Of Tehran, Iran",
+    subject: "Linguistics (Phonetics), PhD.",
+    institution: "University Of Tehran, Iran",
     date: "2004 - 2010",
   },
 ];
 export const experiences = [
   {
+    image: require("./assets/hyf.jpg"),
     name: "Web Developer",
     company: "@ HackYourFuture (HYF) Copenhagen",
     date: "Feb.2021 - Dec.2021",
-    work: "React, Node.js, MySQL, JavaScript, Html, Css",
+    responsibility: "React, Node.js, MySQL, JavaScript, Html, Css",
   },
   {
+    image: require("./assets/irandoc.png"),
     name: "Linguistics Researcher and lecturer",
     company:
       "@ Iranian Research Institute for Information Science and Technology (IRANDOC) ",
     date: "Sep.2010 - Jun.2018",
-    work: "Defining and Implementing projects about Persian language in language and speech technologies. Teaching Phonetics and Linguistics.",
+    responsibility:
+      "Defining and Implementing projects about Persian language in language and speech technologies. Teaching Phonetics and Linguistics.",
   },
 ];
 
@@ -89,4 +93,5 @@ export const skills = [
   "Tailwind CSS",
   "Test framework:Jest",
   "Material Ui",
+  "WordPress",
 ];
